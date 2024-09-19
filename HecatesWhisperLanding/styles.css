@@ -1,0 +1,94 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif; /* Choose a font that aligns with your app's feel */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark gray for text */
+    background-color: #f8f4f4; /* Light gray background */
+    background-image: url("C:\Users\Administrator\OneDrive\Desktop\HecatesWhisperLanding\5fc95665-7f9d-4e7a-8778-76509c7ff6cb.jpg"); /* Replace with your image path */
+    background-size: cover; /* Make the image cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+/* Header */
+header {
+    background-color: #e91e63; /* Vibrant pink - consider your brand colors */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+    background-image: url("path/to/hero-image.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 150px 0; /* Increase padding for a more dramatic effect */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow */
+}
+
+#hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+#signup-button {
+    background-color: #4CAF50; /* Green for a call-to-action feel */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a smooth hover effect */
+}
+
+#signup-button:hover {
+    background-color: #3e8e41;
+}
+
+/* Features Section */
+#features {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.feature {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+    color: #e91e63; /* Use the accent color for headings */
+    margin-bottom: 10px;
+}
+
+/* ... Style other sections similarly ... */
